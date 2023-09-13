@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+# SpringDoc 配置
+springdoc:
+    api-docs:
+      enabled: false
+    swagger-ui:
+      enabled: false
+
+# MySQL 配置
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/sjuchat?useSSL=false&allowPublicKeyRetrieval=true
+    username: lipeng
+    password: 123456
+
+
